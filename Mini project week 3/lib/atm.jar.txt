@@ -1,2 +1,0 @@
-jar cfe atm.jar Main -C out .
-java -jar atm.jar
