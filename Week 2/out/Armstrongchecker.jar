@@ -1,0 +1,3 @@
+cd out
+jar cfe ArmstrongChecker.jar ArmstrongApp *.class
+java -jar ArmstrongChecker.jar
