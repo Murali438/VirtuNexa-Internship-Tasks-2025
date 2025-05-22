@@ -1,0 +1,30 @@
+
+---
+
+## 7. 🧪 Testing Checklist
+
+| Task | Tested |
+|------|--------|
+| Input: Valid Armstrong number (e.g., 153) | ✅ |
+| Input: Invalid Armstrong number (e.g., 123) | ✅ |
+| Input: Non-integer (e.g., "abc") | ✅ |
+| SQLite data storage working | ✅ |
+| GUI buttons and display | ✅ |
+| JAR executes on different OS | ✅ (cross-test recommended) |
+
+---
+
+## 8. 📦 Packaging for Submission
+
+### Deliverables:
+
+- `src/`: All Java source code
+- `lib/`: JDBC driver JAR
+- `out/`: Compiled `.class` files and `ArmstrongChecker.jar`
+- `docs/README.md`
+- `armstrong.db` (optional)
+- `LICENSE`
+
+### Zip Command:
+```bash
+zip -r ArmstrongCheckerProject.zip src lib out docs armstrong.db LICENSE
